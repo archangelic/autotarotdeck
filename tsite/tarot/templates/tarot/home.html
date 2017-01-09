@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title>Autotarot Living Deck</title>
+</head>
+<body>
+<h1>Living Deck</h1>
+{% for name, card in cards.items %}
+<h2>{{ name }}</h2>
+<p>{{ card }}</p>
+{% endfor %}
+</body>
+</html>
